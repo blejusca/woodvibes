@@ -1,0 +1,184 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    min-height: 100vh; /* Asigură că pagina va ocupa cel puțin înălțimea ecranului */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Permite scroll vertical */
+}
+body {
+    background-image: url('images/background.jpg'); /* Înlocuiește cu numele imaginii */
+    background-size: cover; /* Acoperă întreaga pagină */
+    background-position: center; /* Centrează imaginea */
+    background-attachment: fixed; /* Fundal fix */
+}
+body {
+    color: black;
+}
+
+
+html, body {
+    height: 100%; /* Asigură că paginile vor putea să se extindă pe întreaga înălțime */
+    margin: 0; /* Elimină marginile implicite */
+    padding: 0; /* Elimină padding-ul implicit */
+    overflow-x: hidden; /* Evită scroll-ul orizontal */
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+header img {
+    max-height: 80px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+nav {
+    background: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+section {
+    padding: 20px;
+    padding-bottom: 50px; /* Asigură că textul nu este acoperit de footer */
+    flex: 1; /* Permite secțiunii principale să ocupe spațiu disponibil */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #758278;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: #464c47;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stiluri pentru poze în tab-uri */
+.tab-content img {
+    max-width: 600px;  /* Lățime maximă pentru imagine */
+    height: auto;      /* Menține proporțiile imaginii */
+    margin-top: 20px;  /* Adaugă un spațiu între text și imagine */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Opțional pentru efect de umbră */
+}
+/* Stilizare pentru paragrafele din tabul Foișoare */
+#tab2 p {
+    text-align: left; /* Poți schimba la 'center' sau 'right' pentru aliniere diferită */
+    margin-bottom: 15px; /* Adaugă un spațiu între paragrafe */
+}
+/* Stilizare pentru paragrafele din tabul Foișoare */
+#tab1 p {
+    text-align: left; /* Poți schimba la 'center' sau 'right' pentru aliniere diferită */
+    margin-bottom: 15px; /* Adaugă un spațiu între paragrafe */
+}
+
+/* Stilizare pentru paragrafele din tabul Foișoare */
+#tab3 p {
+    text-align: center; /* Poți schimba la 'center' sau 'right' pentru aliniere diferită */
+    margin-bottom: 15px; /* Adaugă un spațiu între paragrafe */
+}
+.slogan {
+    font-size: 1.0em;
+    display: block; /* Asigură că apare sub titlu */
+    color: #ddd; /* Poți schimba culoarea dacă vrei */
+    margin-top: 5px; /* Ajustează distanța față de titlu */
+}
+.feature-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+.feature-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.feature-list li span {
+    font-size: 1.2em;
+    margin-right: 8px;
+}
+/* Stil general pentru liste */
+.feature-list, .a-frame-list, .foisor-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.feature-list li, .a-frame-list li, .foisor-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.feature-list li span, .a-frame-list li span, .foisor-list li span {
+    font-size: 1.2em;
+    margin-right: 8px;
+}
+
+
+

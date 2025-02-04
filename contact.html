@@ -1,0 +1,46 @@
+<!-- Pagina Contact -->
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Construcții Cabane</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" style="max-height: 80px;">
+        <h1>Bun venit la WoodVibes</h1>
+        <span class="slogan">Unde lemnul prinde viață</span>
+        
+
+    </header>
+
+    <nav>
+        <a href="index.html">Acasă</a>
+        <a href="servicii.html">Servicii</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Detalii Contact</h2>
+        <p>Email: contact@constructiicabane.ro</p>
+        <p>Telefon: +40 123 456 789</p>
+        <p>Adresă: Strada Exemplu, nr. 10, București</p>
+    </section>
+
+    <section>
+        <h2>Trimite-ne un mesaj</h2>
+        <form action="sendmail.php" method="post">
+            <input type="text" name="nume" placeholder="Nume" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="mesaj" placeholder="Mesaj" required></textarea>
+            <input type="submit" value="Trimite">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Construcții Lemn - Toate drepturile rezervate</p>
+    </footer>
+</body>
+</html>
