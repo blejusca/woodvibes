@@ -11,11 +11,12 @@ body {
     overflow-y: auto; /* Permite scroll vertical */
 }
 body {
-    background-image: url('images/background.jpg'); /* Înlocuiește cu numele imaginii */
+    background-image: url("images/background.jpg");
     background-size: cover; /* Acoperă întreaga pagină */
     background-position: center; /* Centrează imaginea */
-    background-attachment: fixed; /* Fundal fix */
+    background-repeat: no-repeat; /* Nu repeta imaginea */
 }
+
 body {
     color: black;
 }
