@@ -1,169 +1,53 @@
-<!-- Pagina Servicii -->
-<!DOCTYPE html>
-<html lang="ro">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicii - Construcții Cabane</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .tabs {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 20px;
-        }
-        .tab-button {
-            background-color: #424d44;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-        .tab-content {
-            display: none;
-            margin-top: 20px;
-            text-align: center; /* Centrarea textului */
-            padding: 20px;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .active-tab {
-            display: block;
-        }
-
-        /* Stiluri pentru poze în tab-uri */
-        .tab-content img {
-            max-width: 600px;  /* Lățime maximă pentru imagine */
-            height: auto;      /* Menține proporțiile imaginii */
-            margin-top: 20px;  /* Adaugă un spațiu între text și imagine */
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Opțional pentru efect de umbră */
-        }
-        body {
-    color: black;
-}
-        
-    </style>
-</head>
-<body>
-    <header>
-        <img src="logo.png" alt="Logo" style="max-height: 80px;">
-        <h1>Bun venit la WoodVibes</h1>
-<span class="slogan">Unde lemnul prinde viață</span>
-
-
-    </header>
-
-    <nav>
-        <a href="index.html">Acasă</a>
-        <a href="servicii.html">Servicii</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-
-    <section>
-        <h2></h2>
-        <div class="tabs">
-            <button class="tab-button" onclick="showTab('tab1')">Cabane din Lemn</button>
-            <button class="tab-button" onclick="showTab('tab2')">Foișoare</button>
-            <button class="tab-button" onclick="showTab('tab3')">Case Ecologice</button>
-        </div>
-
         <div id="tab1" class="tab-content">
             <h3>Cabane din Lemn</h3>
             <section style="max-width: 800px; margin: 0 auto; text-align: center; padding: 20px; line-height: 1.6;">
                 <h2>Cabane A-Frame – Simplitate, Eleganță, Confort</h2>
-                <p>Cabanele A-Frame sunt simbolul unui stil de viață modern, simplu și conectat cu natura. Cu designul lor triunghiular iconic, 
-                   acestea oferă un spațiu aerisit, luminos și eficient energetic, fiind ideale pentru relaxare, vacanțe sau chiar locuințe permanente.</p>
-            
+                <p>Cabanele A-Frame sunt simbolul unui stil de viață modern, simplu și conectat cu natura...</p>
+
                 <h3>🏡 De ce să alegi o cabană A-Frame?</h3>
                 <ul class="a-frame-list">
-                    <li><span>✔</span> <strong>Design spectaculos</strong> – Arhitectura lor unică adaugă un farmec aparte oricărui peisaj.</li>
-                    <li><span>✔</span> <strong>Construcție rapidă și eficientă</strong> – Proiectate inteligent pentru un montaj rapid și sigur.</li>
-                    <li><span>✔</span> <strong>Costuri optimizate</strong> – Folosim materiale de calitate, iar tu ai control total asupra bugetului.</li>
-                    <li><span>✔</span> <strong>Eficiență energetică</strong> – Structura permite o bună izolare termică, reducând costurile de încălzire.</li>
+                    <li><span>✔</span> <strong>Design spectaculos</strong>...</li>
+                    <li><span>✔</span> <strong>Construcție rapidă și eficientă</strong>...</li>
                 </ul>
-                
-            
-                <p>Fie că îți dorești o cabană mică pentru evadări de weekend sau un refugiu montan elegant, 
-                   la <strong>WoodVibes</strong> o construim exact așa cum o visezi. Hai să discutăm despre proiectul tău!</p>
+                <p>Fie că îți dorești o cabană mică...</p>
             </section>
-            
-            <!-- Adaugă imaginea pentru cabane -->
-            <div id="cabane-din-lemn">
-    <img src="images/cabana.jpg" alt="Cabana din lemn">
-</div>
+
+            <!-- Imaginea pentru Cabane din Lemn -->
+            <img src="images/cabana.jpg" alt="Cabana din lemn">
         </div>
 
         <div id="tab2" class="tab-content">
             <h3>Foișoare</h3>
             <section style="max-width: 800px; margin: 0 auto; text-align: center; padding: 20px; line-height: 1.6;">
-                <h2>Foișoare – Relaxare în aer liber, în stilul tău</h2>
-                <p>Un foișor este locul perfect unde poți savura liniștea naturii, fie că ești în grădină, lângă casă sau într-o zonă de agrement. 
-                   Construim foișoare personalizate, adaptate stilului și nevoilor tale, fie că îți dorești un spațiu deschis pentru relaxare 
-                   sau un loc acoperit, protejat de vremea capricioasă.</p>
-            
+                <h2>Foișoare – Relaxare în aer liber...</h2>
+                <p>Un foișor este locul perfect unde poți savura liniștea naturii...</p>
+
                 <h3>🌿 Avantajele unui foișor WoodVibes</h3>
                 <ul class="foisor-list">
-                    <li><span>✔</span> <strong>Design personalizat</strong> – Alegi dimensiunile, forma și materialele, iar noi îți aducem ideea la viață.</li>
-                    <li><span>✔</span> <strong>Materiale durabile</strong> – Folosim lemn tratat pentru rezistență și o viață lungă.</li>
-                    <li><span>✔</span> <strong>Funcționalitate maximă</strong> – Spațiu perfect pentru grătare, întâlniri cu prietenii sau seri liniștite în familie.</li>
-                    <li><span>✔</span> <strong>Montaj rapid și fără stres</strong> – Ne ocupăm de tot, iar tu te bucuri de rezultat.</li>
+                    <li><span>✔</span> <strong>Design personalizat</strong>...</li>
+                    <li><span>✔</span> <strong>Materiale durabile</strong>...</li>
                 </ul>
-                
-            
-                <p>Transformă-ți grădina într-un colț de relaxare perfect! 
-                   <strong>Contactează-ne</strong> și hai să creăm împreună foișorul ideal pentru tine.</p>
+                <p>Transformă-ți grădina într-un colț de relaxare...</p>
             </section>
-            
-            <!-- Adaugă imaginea pentru foișoare -->
-            <div id="foisoare" class="tab-content">
-    <img src="images/foisor.jpg" alt="Foișor din lemn">
-</div>
+
+            <!-- Imaginea pentru Foișoare -->
+            <img src="images/foisor.jpg" alt="Foișor din lemn">
         </div>
 
         <div id="tab3" class="tab-content">
             <h3>Case Ecologice</h3>
             <section style="max-width: 800px; margin: 0 auto; text-align: center; padding: 20px; line-height: 1.6;">
-                <h2>Case Ecologice – Locuințe Sănătoase, Prietenoase cu Natura</h2>
-                <p>Dacă visezi la o casă sănătoasă, eficientă energetic și construită din materiale naturale, atunci o casă ecologică este alegerea ideală. 
-                   La <strong>WoodVibes</strong>, realizăm locuințe din lemn, eficiente, confortabile și sustenabile, menite să ofere un stil de viață sănătos și modern.</p>
-            
+                <h2>Case Ecologice – Locuințe Sănătoase...</h2>
+                <p>Dacă visezi la o casă sănătoasă...</p>
+
                 <h3>🏠 De ce să alegi o casă ecologică?</h3>
                 <ul class="feature-list">
-                    <li><span>✔</span> <strong>Materiale naturale</strong> – Lemn de calitate, tratat ecologic, pentru un mediu sănătos.</li>
-                    <li><span>✔</span> <strong>Eficiență energetică</strong> – Construcții bine izolate, care reduc consumul de energie.</li>
-                    <li><span>✔</span> <strong>Design versatil</strong> – De la stil rustic la modern, casele ecologice sunt adaptabile oricărui gust.</li>
-                    <li><span>✔</span> <strong>Durabilitate și rezistență</strong> – Construim pentru viitor, folosind soluții sustenabile.</li>
+                    <li><span>✔</span> <strong>Materiale naturale</strong>...</li>
+                    <li><span>✔</span> <strong>Eficiență energetică</strong>...</li>
                 </ul>
-                
-                
-            
-                <p>Indiferent dacă îți dorești o casă permanentă, o căsuță de vacanță sau o locuință de mici dimensiuni, echipa noastră 
-                   te ajută să îți îndeplinești visul. <strong>Hai să discutăm despre casa ta ecologică!</strong></p>
+                <p>Indiferent dacă îți dorești o casă permanentă...</p>
             </section>
-            
-        
-            <!-- Adaugă imaginea pentru case ecologice -->
-           <div id="case-ecologice" class="tab-content">
-    <img src="images/casa-ecologica.jpg" alt="Casă ecologică">
-</div>
+
+            <!-- Imaginea pentru Case Ecologice -->
+            <img src="images/casa-ecologica.jpg" alt="Casă ecologică">
         </div>
-        
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Construcții Lemn - Toate drepturile rezervate</p>
-    </footer>
-
-    <script>
-        function showTab(tabId) {
-            var tabs = document.querySelectorAll('.tab-content');
-            tabs.forEach(function(tab) {
-                tab.classList.remove('active-tab');
-            });
-            document.getElementById(tabId).classList.add('active-tab');
-        }
-    </script>
-</body>
-</html>
