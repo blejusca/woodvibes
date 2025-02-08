@@ -229,6 +229,15 @@ img {
     display: block;   /* Elimină spațiile albe */
     margin: 0 auto;   /* Le centrează */
 }
+/* Ajustare imagini în tab-uri pentru ecrane mici */
+@media (max-width: 768px) {
+    .tab-content img {
+        max-width: 90%; /* Ocupă 90% din lățimea ecranului */
+        height: auto;
+        display: block;
+        margin: 10px auto; /* Centrează imaginea */
+    }
+}
 
 
 
