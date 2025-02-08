@@ -245,6 +245,14 @@ img {
     max-width: 100%; /* Se asigură că nu depășește containerul */
     height: auto; /* Păstrează proporțiile */
 }
+@media (max-width: 480px) {
+    .tab-content img {
+        display: block;
+        margin: 0 auto; /* Centrează imaginea pe ecrane mici */
+        max-width: 90%; /* Limitează imaginea la 90% din lățimea ecranului */
+        height: auto; /* Păstrează proporțiile */
+    }
+}
 
 
 
