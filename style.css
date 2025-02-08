@@ -238,6 +238,13 @@ img {
         margin: 10px auto; /* Centrează imaginea */
     }
 }
+/* Centrare imagine în container */
+.tab-content img {
+    display: block;
+    margin: 0 auto; /* Centrează imaginea orizontal */
+    max-width: 100%; /* Se asigură că nu depășește containerul */
+    height: auto; /* Păstrează proporțiile */
+}
 
 
 
