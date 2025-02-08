@@ -223,6 +223,12 @@ body {
         text-align: center;
     }
 }
+img {
+    max-width: 100%;  /* Imaginea nu va depăși containerul */
+    height: auto;     /* Păstrează proporțiile */
+    display: block;   /* Elimină spațiile albe */
+    margin: 0 auto;   /* Le centrează */
+}
 
 
 
